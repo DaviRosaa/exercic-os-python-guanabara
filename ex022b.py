@@ -1,0 +1,7 @@
+nome1=str(input("Digite seu nome completo")).strip()
+print(nome1.upper())
+print(nome1.lower())
+print(f"Seu nome tem ao todo {len(nome1)-nome1.count(' ')} letras")
+#print(f"Seu primeiro nome tem {nome1.find(' ')} letras") (TOTALMENTE ERRADO)
+separar=nome1.split()
+print(f"Seu primeiro nome é {separar[0]} e ele tem {len(separar[0])} letras")

@@ -1,0 +1,2 @@
+m=float(input("Quantos metros quer converter em centímetros e milímetros? km, hm e dm"))
+print(f"metros convertido: \n cm: {m*100} \n mi: {m*1000} \n km: {m/1000:.2f} \n hm: {m/100:.2f} \n dm: {m/10:.2f}")

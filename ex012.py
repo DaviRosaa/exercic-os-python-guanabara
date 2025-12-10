@@ -1,0 +1,5 @@
+produto=float(input("Digite o valor do produto"))
+desconto=float(produto*5)
+desconto_reformulado=float(f"{desconto/100:.1f}")
+produto_final=float(f"{produto-desconto_reformulado:.1f}")
+print(f"Temos um desconto dentro do sistema de 5% em quaisquer produto: \033[31m{desconto}\033[m ficando o total dê: \033[31m{produto_final}\033[m ")

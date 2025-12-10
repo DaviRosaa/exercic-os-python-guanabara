@@ -1,0 +1,8 @@
+nome1=input("Digite seu nome completo").strip()
+print(nome1.upper())
+print(nome1.lower())
+nome_junto=nome1.replace(" ","")
+print(len(nome_junto))
+primeiro_nome=nome1.split()
+caracteres_primeiro_nome=len(primeiro_nome[0])
+print(f"O primeiro nome é {primeiro_nome[0]} e a quantidade de caracteres é {caracteres_primeiro_nome}")

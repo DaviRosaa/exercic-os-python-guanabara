@@ -1,0 +1,6 @@
+caracteres=input("\033[4;37mDigite algo\033[m")
+print("O tipo primitivo desse valor", type(caracteres))
+print(f"O tipo è \033[31m{caracteres.isnumeric()}\033[m")
+print(f"O tipo è \033[31m{caracteres.isalpha()}\033[m")
+print(f"O tipo è \033[31m{caracteres.isalnum()}\033[m")
+print(f"O tipo è \033[31m{caracteres.isascii()}\033[m")

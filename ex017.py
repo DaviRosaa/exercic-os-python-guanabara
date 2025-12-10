@@ -1,0 +1,5 @@
+cateto_adjacente=float(input("Digite o valor do primeiro cateto"))
+cateto_agudo=(float(input("Digite o valor do segundo cateto")))
+hipotenusa=(cateto_agudo**2+cateto_adjacente**2)
+resultado=hipotenusa**(1/2)  #Quando fazer a raiz quadrada (deste jeito) sempre colocar a divisão entre parenteses (prioridade)
+print(f"hipotenusa: \033[33m{resultado:.2f}\033[m")
