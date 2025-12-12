@@ -3,6 +3,8 @@ valor1 = int(input("Primeiro valor: "))
 valor2 = int(input("Segundo valor: "))
 escolha = 0
 while escolha != 5:
+    print("-=-=-=-=-=-=-=-")
+    sleep(1)
     print("[ 1 ]somar\n[ 2 ]multiplicar\n[ 3 ]maior\n[ 4 ]novos números\n[ 5 ]sair do programa")
     escolha = int(input("Qual a sua escolha: "))
     if escolha == 1:
