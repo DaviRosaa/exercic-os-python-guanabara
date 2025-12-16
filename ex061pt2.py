@@ -4,17 +4,16 @@ razao = int(input("Digite a razão: "))
 
 termo = a1
 cont = 1
-total = 0
-mais = 10
 
-while mais != 0:
-    total = total + mais
 
-    while cont <= total:
-        termo += razao
-        print(termo, end=" ")
-        cont = cont + 1
 
-    mais = int(input("\nQuer mais quantos termos? "))
+while cont <= 10:
+    print(termo, end=" ")
+    termo += razao
+    cont += 1
+
+
+
+print("\nFim do programa!")
 
 
