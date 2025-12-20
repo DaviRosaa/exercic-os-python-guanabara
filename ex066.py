@@ -7,3 +7,5 @@ while usuario != 999:
         break
     soma += usuario
     contador += 1
+
+print(f"A soma de todos os números foi {soma} e quantidade de números foi: {contador}")
