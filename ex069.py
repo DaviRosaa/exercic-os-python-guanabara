@@ -7,7 +7,7 @@ while True:
     opcao = str(input("Quer continuar [S/N]: ").upper())        # and (E lógico) → todas precisam ser verdadeiras
     while opcao != "S" and opcao != "N":
         opcao = str(input("Quer continuar [S/N]: ").upper())
-    if sexo == "M":
+    if sexo == "F":
         if idade < 20:
             contador4 += 1
     if sexo == "M":
