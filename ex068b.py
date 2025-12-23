@@ -17,11 +17,11 @@ while True:
 
     if resultado_par:
         print("deu PAR")
-    else:                                                                   #Condições simplificadas da IA
+    else:
         print("deu ÍMPAR")
 
     # vitória
-    if (opcao == "P" and resultado_par) or (opcao == "I" and not resultado_par):
+    if (opcao == "P" and resultado_par) or (opcao == "I" and not resultado_par):               #Condições simplificadas da IA
         print("Você venceu!\n")
         contador += 1
     else:
