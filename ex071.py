@@ -1,27 +1,21 @@
-print("BANCO CEV\n")
-contador = contador2 = contador3 = contador4 = 0
+print("Banco DEV")
 valor = int(input("Qual valor voçê quer sacar? R$"))
+total = valor
+ced = 50
+total_ced = 0
 while True:
-    if valor % 50 == 0:
-        contador += 1
-        print(f"Total de {contador} cédulas de R$50")
-    if valor % 20 == 0:
-        contador2 += 1
-        print(f"Total de {contador2} cédulas de R$20")
-    if valor % 10 == 0:
-        contador3 += 1
-        print(f"Total de {contador3} cédulas de R$10")
-    if valor % 1 == 0:
-        contador4 += 1
-        print(f"Total de {contador4} cédulas de R$1")
-        break
-
-
-
-
-
-
-
-
-
-
+    if total >= ced:
+        total -= ced                        #Primeira forma com Substração
+        total_ced += 1
+    else:
+        if total_ced > 0:
+            print(f"O total de {total_ced} cédulas de R${ced}")
+        if ced == 50:
+            ced = 20
+        elif ced == 20:
+            ced = 10
+        elif ced == 10:
+            ced = 1
+        total_ced = 0
+        if total == 0:
+            break
