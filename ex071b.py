@@ -4,7 +4,7 @@ total = saque
 ced = 50
 while True:
     if total >= ced:
-        qtd = total // ced
+        qtd = total // ced        #Segunda forma com cálculo direto
         print(f"O total de {qtd} cédulas de R${ced} ")
         total %= ced              #Quanto sobra de resto da divisão da primeira cédula, e assim por diante: 50, 20, 10, 5 e 1
     else:
